@@ -80,7 +80,7 @@ export default {
    z-index: 9001;
 }
 .style-download{
-    background-image: url('/public/images/vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/public/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
     border-radius: 50px;
     /* height: auto; */
     margin-top : 6rem;
