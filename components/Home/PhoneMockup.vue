@@ -1,5 +1,5 @@
 <template>
-    <div style="background-color: #F4F4FF;" class="mockup-down-n">
+  <div style="background-color: #F4F4FF;" class="mockup-down-n">
         <div class="container move-up mockup-bg">
             <div class="d-flex phone-inside">
                 <nuxt-img src="/images/phone-1.svg" class="img-fluid img-left-1" alt="" srcset="" />
@@ -22,8 +22,6 @@ export default {
 }
 </script>
 
-<style scoped>
-
-
+<style>
 
 </style>

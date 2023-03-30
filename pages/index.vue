@@ -1,7 +1,7 @@
 <template>
     <div class="">
        <HomeHero />
-       <HomeMobileMockup />
+       <HomePhoneMockup />
        <HomeCard />
        <HomeTestimonial />
        <HomeDownload />

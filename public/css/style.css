@@ -1,6 +1,9 @@
 *{
     font-family: 'Satoshi'; 
 }
+html {
+    scroll-behavior: smooth;
+  }
 /* Navbar style */
 .bg-header{
     background: rgba(98, 70, 234, 0.05);
