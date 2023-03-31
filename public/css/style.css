@@ -3,7 +3,7 @@
 }
 html {
     scroll-behavior: smooth;
-  }
+}
 /* Navbar style */
 .bg-header{
     background: rgba(98, 70, 234, 0.05);
@@ -13,7 +13,8 @@ html {
     border-radius: 73px;
 }
 .header-down{
-    padding-top: 2rem !important;
+    padding-top: 1rem !important;
+    /* padding-bottom: 1rem !important; */
 }
 li a{
     /* font-family: 'Satoshi' !important; */
@@ -35,16 +36,17 @@ a:hover{
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
-    padding: 24px 30px;
+    padding: 20px 30px;
     text-align: center;
     cursor: pointer;
 }
 /* Hero style */
+
 .hero-title{
     font-family: 'Satoshi' !important;  
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 90px;
     /* line-height: 130px; */
     text-align: center;
     color: #141414;
@@ -56,12 +58,12 @@ a:hover{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     /* line-height: 32px; */
     text-align: center;
     color: #666666;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding-top: 1rem;
 }
 .btn-download-hero{
@@ -69,11 +71,12 @@ a:hover{
     font-style: normal;
     background: #141414;
     border-radius: 73px;
-    padding: 24px 48px;
+    padding: 20px 48px;
     text-align: center;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
+    border: none;
     /* line-height: 24px; */
     color: #FFFFFF;
     cursor: pointer;
@@ -107,15 +110,20 @@ a:hover{
     padding-top: 15rem;
 }
 .mockup-bg{
-    background-image: url('/public/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
     border-radius: 50px;
     /* height: auto; */
     /* padding-bottom: 5rem; */
     background-repeat: no-repeat;
-    height: 645px;
+    height: 730px;
     background-size: cover;
     /* padding-top: 10rem; */
 }
+
+.bg-e{
+    height: 100%;
+    background: linear-gradient(to bottom, #fff 60%, #F4F4FF 40%);
+  }
 /* .phone-inside{
     position: relative;
     top: 200px;
@@ -135,7 +143,7 @@ a:hover{
     width: 736px;
 }
 .img-left-3{
-    left: -180px;
+    left: -120px;
     position: relative;
     top: -480px;
     height: 650px;
@@ -164,8 +172,8 @@ a:hover{
 .header-card{
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 130px;
+    font-size: 90px;
+    /* line-height: 130px; */
     text-align: center;
     color: #141414;
     margin-top: 4rem;
@@ -173,7 +181,7 @@ a:hover{
 .header-card-p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #666666;
@@ -183,10 +191,10 @@ a:hover{
 .btn-card-b{
     background: #6246EA;
     border-radius: 83px;
-    padding: 20px 32px;
+    padding: 16px 32px;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 43px;
     color: #FFFFFF;
     cursor: pointer;
@@ -214,7 +222,7 @@ a:hover{
 .testimonial-card{
     background: #F2F2F2;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 429px;
     height: 100%;
     max-height: 320px;
@@ -222,7 +230,7 @@ a:hover{
 .card-testi{
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #000000;
     margin-top: 3rem;
@@ -243,7 +251,7 @@ a:hover{
 .testimonial-card-2{
     background: #F2F2F2;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 330px;
     height: 100%;
     /* max-height: 350px; */
@@ -253,19 +261,20 @@ a:hover{
 .wait-for-it{
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 43px;
     color: #FFFFFF;
 }
 .download-text{
     font-style: normal;
     font-weight: 700;
-    font-size: 5em;
-    /* line-height: 130px; */
+    font-size: 65px;
+    line-height: 80px;
     color: #FFFFFF;
 }
 .flex-download{
     display: flex;
+    justify-content: space-between;
 }
 .star-down{
     padding-top: 3rem;
@@ -293,7 +302,7 @@ a:hover{
    z-index: 9001;
 }
 .style-download{
-    background-image: url('/public/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
     border-radius: 50px;
     /* height: auto; */
     margin-top : 6rem;
@@ -354,15 +363,15 @@ a:hover{
 .header-company{
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 130px;
+    font-size: 90px;
+    /* line-height: 130px; */
     text-align: center;
     color: #141414;
 }
 .company-center{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #666666;
@@ -386,18 +395,18 @@ a:hover{
 .why-we-built{
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 86px;
     color: #141414;
     margin-bottom: 2rem;
 }
-.built p{
+.built-p{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     color: #333333;
-    padding-top: 10rem;
+    padding-top: 1rem;
 }
 .company-values{
     background: #F4F4FF;
@@ -432,8 +441,8 @@ a:hover{
 .header-student{
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 130px;
+    font-size: 90px;
+    /* line-height: 130px; */
     color: #141414;
 }
 .header-student-w{
@@ -455,7 +464,7 @@ a:hover{
     font-style: normal;
     background: #141414;
     border-radius: 73px;
-    padding: 24px 114px;
+    padding: 15px 114px;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
@@ -480,10 +489,10 @@ a:hover{
 .what-text-a{
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 86px;
+    font-size: 36px;
+    /* line-height: 86px; */
     color: #808080;
-    width: 90%;
+    /* width: 90%; */
 }
 .ambassador-gathering{
     margin: 5rem 0;
@@ -494,12 +503,12 @@ a:hover{
     font-size: 40px;
     line-height: 54px;
     color: #141414;
-    width: 80%;
+    width: 85%;
 }
 .pro-text{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #666666;
     width: 90%;
@@ -523,7 +532,7 @@ a:hover{
 .links-down ul li{
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 49px;
     color: #6246EA;
     padding-top: 2rem;
@@ -531,14 +540,14 @@ a:hover{
 .header-support{
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 90px;
     line-height: 130px;
     color: #141414;
 }
 .support-text{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #666666;
 }
@@ -552,15 +561,15 @@ a:hover{
 .info-title{
     font-style: normal;
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 43px;
     color: #141414;
 }
 .info-text{
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 43px;
+    font-size: 18px;
+    /* line-height: 43px; */
     color: #141414;
 }
 .form-d{
@@ -584,22 +593,22 @@ a:hover{
 ::placeholder{
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #808080;
 }
 select{
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #808080 !important;
 }
 input{
-    font-size: 24px;
+    font-size: 20px;
 }
 textarea{
-    font-size: 24px;
+    font-size: 20px;
     height: 190px;
 }
 .support-bot{
@@ -608,7 +617,7 @@ textarea{
 .btn-send-message{
     background: #141414;
     border-radius: 73px;
-    padding: 24px 114px;
+    padding: 20px 114px;
     color: #fff;
     margin-top: 2rem;
 }
@@ -648,11 +657,12 @@ textarea{
      transform: translateY(-50%);
      color: #E81313;
  }
+ /* FAQ */
  .header-faq{
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 130px;
+    font-size: 90px;
+    /* line-height: 130px; */
     width: 80%;
     color: #141414;
  }

@@ -2,16 +2,16 @@
   <div style="background-color: #fff;">
     <div class="container">
         <div class="style-download">
-            <div class="flex-download">
-                <div class="">
+            <div class="row">
+                <div class="col-lg-6">
                     <p class="wait-for-it">What are you waiting for?</p>
                     <h1 class="download-text">Download the App to Get Started</h1>
-                    <div class="d-flex mt-2">
-                        <div class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
+                    <div class="mt-5">
+                        <button class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
                     </div>
                 </div>
-                <div class="">
-                    <nuxt-img src="/images/phone-download.svg" class="img-fluid" alt="" srcset="" />
+                <div class="col-lg-6">
+                    <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" />
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-12 co-md-6">
                     <p class="Licensed">Licensed by–</p>
-                    <nuxt-img src="/images/Malawi-Logo.svg" class="img-fluid " alt="" srcset="" />
+                    <nuxt-img src="/images/Malawi-Logo.svg" class="img-fluid" alt="" srcset="" />
                 </div>
                 <div class="col-lg-3 col-sm-12 co-md-3">
                     <div class="star-down">
@@ -54,40 +54,7 @@ export default {
 </script>
 
 <style scoped>
-.star-down{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-}
-.text-in-logo{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    /* line-height: 27px; */
-    position: relative;
-    top: 5px;
-    color: #000000;
-}
-.star-rating{
-    margin: 1rem 5rem;
-}
-.Licensed{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #666666;
-}
-.img-fluid-1{
-   z-index: 9001;
-}
-.style-download{
-    background-image: url('/public/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
-    border-radius: 50px;
-    /* height: auto; */
-    margin-top : 6rem;
-    padding: 4rem 4rem 0 4rem;
-    margin-bottom: 5rem;
-    background-repeat: no-repeat;
-    /* height: 645px; */
-    background-size: cover;
+.img-g{
+    width: 630px;
 }
 </style>

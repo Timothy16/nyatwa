@@ -1,6 +1,7 @@
 <template>
   <div>
     <FaqHero />
+    <FaqAccordion />
   </div>
 </template>
 

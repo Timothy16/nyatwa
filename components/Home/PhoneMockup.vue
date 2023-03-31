@@ -1,6 +1,7 @@
 <template>
-  <div style="background-color: #F4F4FF;" class="mockup-down-n">
-        <div class="container move-up mockup-bg h">
+  <div  class="mockup-down-n bg-e">
+    <!-- style="background-color: #F4F4FF;" -->
+        <div class="container move-up mockup-bg">
             <div class="d-flex phone-inside">
                 <nuxt-img src="/images/phone-1.svg" class="img-fluid img-left-1" alt="" srcset="" />
                 <nuxt-img src="/images/phone-2.svg" class="img-fluid img-left-2" alt="" srcset="" />
@@ -22,6 +23,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>

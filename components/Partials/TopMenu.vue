@@ -1,5 +1,6 @@
 <template>
-    <div style="background-color: #F4F4FF;" class="fixed-top">
+    <div style="background-color: #fff;" class="fixed-top">
+        <!-- #F4F4FF -->
         <div class="container header-down">
             <nav class="navbar navbar-expand-lg bg-header">
                 <div class="container-fluid">

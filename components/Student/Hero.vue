@@ -13,10 +13,10 @@
             <div class="student-group">
                 <div class="row">
                     <div class="col-lg-8">
-                        <nuxt-img src="/images/group-student.png" class="img-h w-100" alt="" srcset="" />
+                        <nuxt-img src="/images/group-student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                     <div class="col-lg-4">
-                        <nuxt-img src="/images/student.png" class="img-h w-100" alt="" srcset="" />
+                        <nuxt-img src="/images/student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                 </div>
             </div>
