@@ -57,7 +57,7 @@
             <input type="checkbox" id="chck5">
             <label class="tab-label" for="chck5">
                 <div class="d-flex justify-content-between">
-                    <div>What is card creation fee??</div>
+                    <div>What is card creation fee?</div>
                     <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
                 </div>
             </label>
@@ -96,16 +96,12 @@ $midnight: #fff;
     width: 30px;
     height: 30px;
 }
-h1 {
-  margin: 0;
-  line-height: 2;
-  text-align: center;
-}
+
 h2 {
   margin: 0 0 .5em;
   font-weight: normal;
 }
-input {
+.tab input {
   position: absolute;
   opacity: 0;
   z-index: -1;
@@ -178,7 +174,8 @@ input {
 // :checked
 input:checked {
   + .tab-label {
-    background: #fff;
+    background: #000;
+    color: #fff;
 
     &::after {
       transform: rotate(90deg);

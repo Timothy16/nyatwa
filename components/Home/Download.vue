@@ -3,14 +3,17 @@
     <div class="container">
         <div class="style-download">
             <div class="row">
-                <div class="col-lg-6">
-                    <p class="wait-for-it">What are you waiting for?</p>
-                    <h1 class="download-text">Download the App to Get Started</h1>
-                    <div class="mt-5">
-                        <button class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
+                <div class="col-lg-7">
+                    <div class="text-enter-1">
+                        <p class="wait-for-it">What are you waiting for?</p>
+                        <h1 class="download-text">Download the App to Get Started</h1>
+                        <div class="mt-5">
+                            <button class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
+                        </div>
                     </div>
+                    
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" />
                 </div>
             </div>
@@ -55,6 +58,14 @@ export default {
 
 <style scoped>
 .img-g{
-    width: 630px;
+    width: 700px;
+    position: relative;
+    left: -200px;
+    /* top: -80px; */
+}
+.text-enter-1{
+    /* padding-left: 5rem;
+    padding-top: 4rem; */
+    padding: 5rem 0 5rem 3rem;
 }
 </style>
