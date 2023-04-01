@@ -3,10 +3,11 @@
         <div class="desktop-view">
             <PartialsTopMenu />
         </div>
+        <Modal />
         <div class="mobile-view">
             <!-- <PartialsTopTubeMobile /> -->
         </div>
-        <div class="">
+        <div class="top-down">
              <slot />
         </div>
         <div>
@@ -33,7 +34,7 @@
  </script>
  <style scoped>
  .top-down{
-     margin-top: 3rem !important;
+     padding-top: 10rem !important;
  }
  .desktop-view{
     display: block;

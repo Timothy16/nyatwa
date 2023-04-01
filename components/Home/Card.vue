@@ -7,7 +7,7 @@
             <div class="header-card">Shop & Spend Globally with our Virtual Cards</div>
             <p class="header-card-p">You can use our virtual dollar card to shop and spend globally, anywhere Mastercard and Visa cards are accepted.</p>
             <div class="d-flex justify-content-center mt-5">
-                <div class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
+                <div data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
             </div>
 
             <div class="section-down">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="d-flex justify-content-center mt-5">
-                <div class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
+                <div data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
             </div>
         </div>
     </div>

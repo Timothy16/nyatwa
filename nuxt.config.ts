@@ -11,6 +11,7 @@ export default defineNuxtConfig({
                 // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=satoshi&display=swap'},
                 { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css'},
                 { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css'},
+                { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'},
   
             ],
             script : [
@@ -19,7 +20,8 @@ export default defineNuxtConfig({
                   crossorigin: "anonymous"
                 },
             ]
-        }
+        },
+        pageTransition: { name: 'page', mode: 'out-in' }
     },
     css: [
         '@/public/css/style.css',

@@ -1,6 +1,8 @@
 <template>
     <div style="background-color: #fff;" class="fixed-top">
         <!-- #F4F4FF -->
+        <!-- <DownloadModal :is-opened="isOpened" @toggle="(value) => isOpened = value"/> -->
+         
         <div class="container header-down">
             <nav class="navbar navbar-expand-lg bg-header">
                 <div class="container-fluid">
@@ -29,8 +31,9 @@
                         <!-- <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form> -->
-                        <div class="download-btn"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
+                        </form> --> 
+                        <!-- <div @click="isOpened = true" class="download-btn"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div> -->
+                        <div data-bs-toggle="modal" data-bs-target="#exampleModal" class="download-btn"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
                     </div>
                 </div>
             </nav>
@@ -38,10 +41,8 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+    const isOpened = ref(false);
 </script>
 
 <style>

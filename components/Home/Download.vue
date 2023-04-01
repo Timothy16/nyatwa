@@ -8,7 +8,7 @@
                         <p class="wait-for-it">What are you waiting for?</p>
                         <h1 class="download-text">Download the App to Get Started</h1>
                         <div class="mt-5">
-                            <button class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
+                            <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
                         </div>
                     </div>
                     
