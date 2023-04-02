@@ -12,6 +12,7 @@ export default defineNuxtConfig({
                 { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css'},
                 { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css'},
                 { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'},
+                // { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css'},
   
             ],
             script : [
@@ -19,6 +20,10 @@ export default defineNuxtConfig({
                   async: true,
                   crossorigin: "anonymous"
                 },
+                // { src: 'https://unpkg.com/aos@2.3.1/dist/aos.js',
+                //   async: true,
+                //   crossorigin: "anonymous"
+                // },
             ]
         },
         pageTransition: { name: 'page', mode: 'out-in' }

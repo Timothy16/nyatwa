@@ -1,6 +1,6 @@
 <template>
   <div style="background-color: #fff;">
-    <div class="container support-bot">
+    <div class="container support-bot animate__animated animate__fadeInLeft animate__slow">
         <h2 class="header-support">Get Support</h2>
         <p class="support-text">Want to suggest a feature or ask for help? Contact us by filling the form below</p>
            

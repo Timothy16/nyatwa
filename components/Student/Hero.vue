@@ -1,7 +1,7 @@
 <template>
     <div style="background-color: #fff;">
         <div class="container">
-            <div class="header-student-w">
+            <div class="header-student-w animate__animated animate__fadeInLeft animate__slow" >
                 <h2 class="header-student">Earn cash as a Nyatwa Ambassador.</h2>
                 <div class="student-p-w">
                     <p>Do you already tell your friends about Nyatwa? Well, it’s time to get rewarded.</p>

@@ -10,11 +10,13 @@
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
+    "@types/aos": "^3.0.4",
     "nuxt": "^3.3.2",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.0-alpha2"
   }
 }

@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <div class="container task-style">
+        <div class="container task-style" data-aos="zoom-in" data-aos-duration="1000">
             <h2 class="task-h">What You would be doing</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">

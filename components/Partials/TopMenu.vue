@@ -6,7 +6,7 @@
         <div class="container header-down">
             <nav class="navbar navbar-expand-lg bg-header">
                 <div class="container-fluid">
-                    <NuxtLink class="navbar-brand" to="/">
+                    <NuxtLink class="navbar-brand animate__animated animate__fadeInLeft animate__slow " to="/">
                         <nuxt-img src="/images/Logo-Main.svg" class="img-fluid" alt="" srcset="" />
                     </NuxtLink>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,16 +15,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <NuxtLink class="nav-link" aria-current="page" to="/company">Company</NuxtLink>
+                                <NuxtLink class="nav-link" aria-current="page" to="/company" :class="{'activeClass' : checkUrl == '/company'}">Company</NuxtLink>
                             </li>
                             <li class="nav-item">
-                                <NuxtLink class="nav-link" to="/student-ambassador">Student Ambassador</NuxtLink>
+                                <NuxtLink class="nav-link" to="/student-ambassador" :class="{'activeClass' : checkUrl == '/student-ambassador'}">Student Ambassador</NuxtLink>
                             </li>
                             <li class="nav-item">
-                                <NuxtLink class="nav-link" to="/faq">FAQs</NuxtLink>
+                                <NuxtLink class="nav-link" to="/faq" :class="{'activeClass' : checkUrl == '/faq'}">FAQs</NuxtLink>
                             </li>
                             <li class="nav-item">
-                                <NuxtLink class="nav-link" to="/get-support">Get Support</NuxtLink>
+                                <NuxtLink class="nav-link" to="/get-support" :class="{'activeClass' : checkUrl == '/get-support'}">Get Support</NuxtLink>
                             </li>
                         
                         </ul>
@@ -41,10 +41,18 @@
   </div>
 </template>
 
-<script setup>
-    const isOpened = ref(false);
+<script>
+export default {
+    computed : {
+         checkUrl(){
+            return this.$route.path
+        },
+    }
+}
 </script>
 
-<style>
-
+<style scoped>
+.activeClass{
+    color: #6246EA !important;
+}
 </style>

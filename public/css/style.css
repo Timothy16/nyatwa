@@ -248,6 +248,11 @@ a:hover{
 .marging-inside{
     margin: 1rem;
 }
+/* testionial */
+.display-testi{
+    display: flex;
+    justify-content: space-between;
+}
 .testimonial-card-2{
     background: #F2F2F2;
     border-radius: 20px;

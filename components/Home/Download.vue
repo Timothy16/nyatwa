@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
                     <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" />
                 </div>
             </div>
