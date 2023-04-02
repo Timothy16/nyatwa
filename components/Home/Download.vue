@@ -11,10 +11,9 @@
                             <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-download-hero"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</button>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="col-lg-5">
-                    <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" />
+                    <!-- <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" /> -->
                 </div>
             </div>
         </div>
