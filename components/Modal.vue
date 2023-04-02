@@ -57,7 +57,7 @@ export default {
     padding: 0;
 }
 .modal-content{
-    border-radius: 20px;
+    border-radius: 22px;
 }
 .img-up{
     position: relative;
