@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <!-- <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" /> -->
+                    <nuxt-img src="/images/phone-download.svg" class="img-g" alt="" srcset="" />
                 </div>
             </div>
         </div>
@@ -56,11 +56,15 @@ export default {
 </script>
 
 <style scoped>
+*{
+    overflow: hidden;
+}
 .img-g{
-    width: 700px;
+    width: 690px;
     position: relative;
     left: -200px;
     /* top: -80px; */
+   
 }
 .text-enter-1{
     /* padding-left: 5rem;
