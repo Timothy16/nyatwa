@@ -17,10 +17,14 @@
                         <nuxt-img src="/images/scan.svg" class="img-fluid" alt="" srcset="" />
                         <div class="text-scan mb-3">Scan the QR Code to download Pera Wallet</div>
                         <p>Start moving money freely</p>
-                        <div class="app-down">
+                        <div class="app-down d-flex justify-content-center">
                             <nuxt-img src="/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;
                             <nuxt-img src="/images/app-store.svg" class="img-fluid" alt="" srcset="" />
                         </div>
+                        <!-- <div class="app-down d-flex">
+                            <nuxt-img src="/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;
+                            <nuxt-img src="/images/app-store.svg" class="img-fluid" alt="" srcset="" />
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -83,5 +87,18 @@ export default {
 }
 .app-down{
     margin: 5rem 0 0 0;
+}
+@media screen and (max-width : 578px) {
+    .modal-w-n{
+        width: 100% !important;
+        height: auto;
+    }
+    .text-scan{
+        font-size: 24px;
+        line-height: 36px;    
+    }
+    .img-up p{
+        font-size: 16px;
+    }
 }
 </style>

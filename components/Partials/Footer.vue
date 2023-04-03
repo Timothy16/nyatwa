@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="col-lg-2 col-md-2 col-12 footer-p">
-                <h6 class="header-footer">Legal</h6>
+                <h6 class="header-footer legal-f">Legal</h6>
                 <ul>
                     <li>Terms of Service</li>
                     <li>Privacy Policy</li>
@@ -32,13 +32,13 @@
         </div>
         <div class="social-media">
             <NuxtLink to="https://twitter.com/nyatwa_app" target="_blank">
-                <nuxt-img src="/images/twitter.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <nuxt-img src="/images/twitter.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
             <NuxtLink to="https://www.instagram.com/nyatwa_app/" target="_blank">
-                <nuxt-img src="/images/instagram.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <nuxt-img src="/images/instagram.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
             <NuxtLink to="https://linkedin.com/company/nyatwa" target="_blank">
-                <nuxt-img src="/images/linkdin.svg" class="img-fluid" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <nuxt-img src="/images/linkdin.svg" class="img-fluid footer-logo" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
             <!-- <nuxt-img src="/images/blog.svg" class="img-fluid" alt="" srcset="" /> -->
         </div>

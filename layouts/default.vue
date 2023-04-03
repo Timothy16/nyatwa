@@ -44,21 +44,25 @@
 }
 @media screen and (max-width : 578px) {
     .desktop-view{
-        display: none;
+        /* display: none; */
     }
     .mobile-view{
-        display: block;
+        /* display: block; */
     }
-    .slot-down{
-        margin: 3em 1rem;
+
+    .top-down{
+        padding-top: 8rem !important;
     }
 }
 @media screen and (max-width : 768px) {
     .desktop-view{
-        display: none;
+        /* display: none; */
     }
     .mobile-view{
-        display: block;
+        /* display: block; */
+    }
+    .top-down{
+        padding-top: 7rem !important;
     }
    
 }

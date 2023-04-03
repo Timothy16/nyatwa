@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <div class="container ambassador-s" data-aos="fade-down" data-aos-duration="1000">
+        <div class="container ambassador-s">
             <h2 class="ambassador-is-a">What is the Nyatwa ambassador program?</h2>
             <p class="what-text-a mt-4">The Nyatwa Student Ambassador Program is an exclusive community of young, smart, and influential students in some of the leading universities across the nation.</p>
         

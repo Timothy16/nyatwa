@@ -186,5 +186,10 @@ input:checked {
     padding: 1em;
   }
 }
-
+@media screen and (max-width : 578px) {
+  .tab-label {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
 </style>

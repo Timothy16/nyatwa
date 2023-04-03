@@ -36,7 +36,7 @@ a:hover{
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
-    padding: 20px 30px;
+    padding: 18px 30px;
     text-align: center;
     cursor: pointer;
 }
@@ -46,7 +46,7 @@ a:hover{
     font-family: 'Satoshi' !important;  
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     /* line-height: 130px; */
     text-align: center;
     color: #141414;
@@ -58,7 +58,7 @@ a:hover{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     /* line-height: 32px; */
     text-align: center;
     color: #666666;
@@ -71,7 +71,7 @@ a:hover{
     font-style: normal;
     background: #141414;
     border-radius: 73px;
-    padding: 20px 48px;
+    padding: 18px 48px;
     text-align: center;
     text-align: center;
     font-weight: 500;
@@ -91,8 +91,7 @@ a:hover{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    right: -50px;
-    
+    right: -50px; 
 }
 .pic-up{
     top: -3px;
@@ -101,10 +100,14 @@ a:hover{
 /* Mobile Mockup */
 
 .section-company{
-    width: 85%;
+    width: 75%;
     margin: auto;
     position: relative;
     top: -70px;
+}
+.display-c-l{
+    display: flex;
+    justify-content: space-between;
 }
 .mockup-down-n{
     padding-top: 15rem;
@@ -149,10 +152,7 @@ a:hover{
     height: 650px;
     width: 736px;
 }
-/* .move-up{
-    position: relative;
-    top: -300px;
-} */
+
 .section-mockup{
     background: url("/public/images/Section.png");
     height: 736px;
@@ -172,7 +172,7 @@ a:hover{
 .header-card{
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 100px;
     text-align: center;
     color: #141414;
@@ -205,7 +205,7 @@ a:hover{
 .header-card-p-p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #666666;
@@ -297,7 +297,7 @@ a:hover{
 .star-rating{
     margin: 1rem 5rem;
 }
-.Licensed{
+.licensed{
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
@@ -316,6 +316,18 @@ a:hover{
     background-repeat: no-repeat;
     /* height: 645px; */
     background-size: cover;
+}
+.img-g{
+    width: 690px;
+    position: relative;
+    left: -200px;
+    /* top: -80px; */
+   
+}
+.text-enter-1{
+    /* padding-left: 5rem;
+    padding-top: 4rem; */
+    padding: 5rem 0 5rem 3rem;
 }
 /* Footer */
 .footer-style{
@@ -368,7 +380,7 @@ a:hover{
 .header-company{
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     /* line-height: 130px; */
     text-align: center;
     color: #141414;
@@ -382,7 +394,7 @@ a:hover{
     color: #666666;
     margin: auto;
     width: 65%;
-    padding-top: 2rem;
+    /* padding-top: .5rem; */
 }
 .img-pace{
     margin-top: 7rem;
@@ -408,7 +420,7 @@ a:hover{
 .built-p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #333333;
     padding-top: 1rem;
@@ -425,7 +437,7 @@ a:hover{
 .company-values-p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #333333;
     padding-top: 1rem;
@@ -446,12 +458,12 @@ a:hover{
 .header-student{
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     /* line-height: 130px; */
     color: #141414;
 }
 .header-student-w{
-    width: 70%;
+    width: 61%;
 }
 .student-p-w{
     width: 55%;
@@ -487,14 +499,14 @@ a:hover{
 .ambassador-is-a{
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 86px;
     color: #141414;
 }
 .what-text-a{
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     /* line-height: 86px; */
     color: #808080;
     /* width: 90%; */
@@ -529,7 +541,7 @@ a:hover{
 .task-h{
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 86px;
     color: #141414;
 }
@@ -537,7 +549,7 @@ a:hover{
 .links-down ul li{
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 49px;
     color: #6246EA;
     padding-top: 2rem;
@@ -545,7 +557,7 @@ a:hover{
 .header-support{
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 130px;
     color: #141414;
 }
@@ -622,7 +634,7 @@ textarea{
 .btn-send-message{
     background: #141414;
     border-radius: 73px;
-    padding: 20px 114px;
+    padding: 18px 114px;
     color: #fff;
     margin-top: 2rem;
 }
@@ -666,8 +678,875 @@ textarea{
  .header-faq{
     font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     /* line-height: 130px; */
-    width: 80%;
+    width: 70%;
     color: #141414;
+ }
+
+ /* mobile responsiveness */
+ @media only screen and (max-width : 578px) {
+    .hero-title{
+        font-size: 32px;
+    }
+    .hero-text{
+        font-size: 14px;
+        width: 100%;
+    }
+    .btn-hero-t{
+        margin-top: 1rem !important;
+    }
+    .btn-download-hero{
+        padding: 14px 24px;
+    }
+    .img-m-v{
+        height: 33px;
+        width: 39px;
+    }
+    .money-s-1{
+        top: 1rem;
+    }
+    .money-s-2{
+        top: -7rem;
+        right: -5px; 
+    }
+    .img-left-1{
+        position: relative;
+        top: -35px;
+        width: 139.08px;
+        height: 177.82px;
+        right: 1px;
+    }
+    .img-left-2{
+        left: -30px;
+        top: -80px;
+        position: relative;
+        width: 89.85px;
+        height: 182.79px;
+    }
+    .img-left-3{
+        left: -50px;
+        position: relative;
+        top: -120px;
+        width: 144.93px;
+        height: 179.43px;
+    }
+    .mockup-bg{
+        border-radius: 12.5px;
+        background-size: cover 100%;
+        height: auto;
+    }
+  
+    .r-m-l{
+        width: 63px;
+        height: 6.5px;
+    }
+    .section-company{
+        width: 70%;
+        margin: auto;
+        position: relative;
+        top: -15px;
+    }
+    .mockup-down-n{
+        padding: 7rem 1rem 0 1rem;
+        /* margin: 0 1rem; */
+    }
+
+    .card-s-m{
+        width: 265.71px;
+        height: 185.03px;
+    }
+    .card-section-pad {
+        padding: 1rem ;
+    }
+    .header-card{
+        font-size: 32px;
+        line-height: 43px;
+        padding-top: 2rem;
+        margin: auto;
+        width: 80%;
+    }
+    .header-card-p{
+        font-size: 14px;
+        line-height: 20px;
+        margin: auto;
+        width: 80%;
+    }
+    .section-down{
+        margin-top: 5rem;
+    }
+    .btn-card-b{
+        padding: 7.5px 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .kite-s-m{
+        width: 9.82px;
+        height: 12.13px;
+    }
+    .p-sign-card{
+        margin: .1rem 1rem;
+    }
+    .section-down-2{
+        margin-top: 1.5rem;
+    }
+    .eye-o-style{
+        position: relative;
+        top : 40px;
+        right: 130px;
+        width: 30px;
+        height: 30px;
+    }
+    .kite-style{
+        position: relative;
+        top : 40px;
+        left: 130px;
+        width: 30px;
+        height: 30px;
+    }
+    .section-down-1{
+        margin-top: 2rem;
+    }
+    .header-card-p-p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: .3rem;
+    }
+    .display-testi{
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .testimonial-card{
+        width: 100%;
+        height: 256px;
+    }
+    .card-testi{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer-testi{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .quote-style-m{
+        width: 30px;
+        height: 30px;
+    }
+    .testimonial-card-2{
+        width: 100%;
+        height: 256px;
+    }
+    .text-enter-1{
+        padding: 1rem;
+    }
+    .wait-for-it{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .download-text{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .style-download{
+        padding: 0; 
+        border-radius: 20px;
+        margin : 2rem .1rem;
+    }
+    .img-g{
+        width: 500px;
+        height: 100%;
+        left: -120px;
+        margin-top: 1rem;
+    }
+    .star-rating{
+        margin: 1rem;
+        text-align: center;
+    }
+    .star-img{
+        width: 17.03px;
+        height: 16px;
+    }
+    .bank-logo{
+        width: 158px;
+        height: 40px;
+    }
+    .licensed{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .star-down{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .app-logo{
+        width: 16px;
+        height: 16px;
+    }
+    .footer-style{
+        padding: 1.9rem;
+        height: auto;
+    }
+    .logo-text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .header-footer{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-p ul li{
+        font-size: 14px;
+        padding-top: 1rem;
+    }
+    .social-media{
+        margin-top: 2rem;
+        border-bottom: 1px solid #333333;
+        padding-bottom: 2rem;
+    }
+    .line-footer{
+        display: none;
+    }
+    .legal-f{
+        margin-top: 1.5rem;
+    }
+    .footer-logo{
+        width: 20px;
+        height: 20px;
+    }
+    .copy-right{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 2rem;
+    }
+    .bg-header{
+        border-radius: 12px;
+        padding: .3rem;
+    }
+    .download-btn{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px;
+        /* width: 80%; */
+    }
+    .header-company{
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .company-center{
+        font-size: 14px;
+        line-height: 20px;
+        width: 80%;
+        padding-top: .6rem;
+    }
+    .img-pace{
+        margin-top: 2rem;
+    }
+    .logo-company-m{
+        width: 95px;
+        height: 23px;
+    }
+    .partner-text{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .our-partners{
+        margin: 1rem;
+    }
+    .why-we-built{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .built-p{
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: .1rem;
+    }
+    .company-values{
+        background: #F4F4FF;
+        border-radius: 10px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    .company-values-p{
+        font-size: 14px;
+        padding-top: .1rem;
+        line-height: 20px;
+    }
+    .our-values{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .company-logo{
+        width: 90%;
+        margin: auto; 
+        padding-bottom: 2rem;
+    }
+    .header-student{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .header-student-w{
+        width: 100%;
+    }
+    .student-p-w{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .student-p-w p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: .1rem;
+    }
+    .btn-apply-student{
+        text-align: center;
+        padding: 16px 62px;
+    }
+    .center-on-mobile{
+        text-align: center;
+    }
+    .student-group{
+        margin: 2rem 0;
+    }
+    .ambassador-is-a{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .what-text-a{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .ambassador-gathering{
+        margin: 2rem 0;
+    }
+    .pro-header{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        width: 100%;
+    }
+    .pro-text{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .task-style{
+        border-radius: 10px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .task-h{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: .1rem;
+    }
+    
+    .links-down ul li{
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .header-faq{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        width: 100%;
+    }
+    .support-text{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+    .support-bot{
+        margin-bottom: 2rem;
+    }
+    .header-support{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .form-d{
+        margin-top: 2rem;
+    }
+    .form-field{
+        border-radius: 10px;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    .btn-send-message{
+        padding: 16px 24px;
+        margin-top: 2rem;
+    }
+    .info-mail{
+        font-size: 24px;
+        text-align: center;
+    }
+    .info-title{
+        font-size: 18px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .info-text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .margin-on-top{
+        margin-top: 1rem !important;
+    }
+    .bg-header ul li a{
+        padding: 10px 0;
+        margin: 0;
+    }
+
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-title{
+        font-size: 45px;
+    }
+    .hero-text{
+        font-size: 14px;
+        width: 60%;
+        margin: auto;
+    }
+    .btn-hero-t{
+        margin-top: 1rem !important;
+    }
+    .btn-download-hero{
+        padding: 14px 24px;
+    }
+    .img-m-v{
+        height: 33px;
+        width: 39px;
+    }
+    .money-s-1{
+        top: 1rem;
+    }
+    .money-s-2{
+        top: -7rem;
+        right: -5px; 
+    }
+    .img-left-1{
+        position: relative;
+        top: -100px;
+        width: 400px;
+        height: 400px;
+        right: 5px;
+    }
+    .img-left-2{
+        left: -70px;
+        top: -180px;
+        position: relative;
+        width: 300px;
+        height: 400px;
+    }
+    .img-left-3{
+        left: -150px;
+        position: relative;
+        top: -280px;
+        width: 400px;
+        height: 400px;
+    }
+    .mockup-bg{
+        border-radius: 12.5px;
+        background-size: cover 100%;
+        height: auto;
+    }
+  
+    .r-m-l{
+        width: 63px;
+        height: 6.5px;
+    }
+    .section-company{
+        width: 70%;
+        margin: auto;
+        position: relative;
+        top: -15px;
+    }
+    .mockup-down-n{
+        padding: 13rem 1rem 0 1rem;
+        /* margin: 0 1rem; */
+    }
+
+    .card-s-m{
+        width: 350px;
+        height: 255.03px;
+    }
+    .card-section-pad {
+        padding: 1rem ;
+    }
+    .header-card{
+        font-size: 32px;
+        line-height: 43px;
+        padding-top: 2rem;
+        margin: auto;
+        width: 80%;
+    }
+    .header-card-p{
+        font-size: 14px;
+        line-height: 20px;
+        margin: auto;
+        width: 80%;
+    }
+    .section-down{
+        margin-top: 5rem;
+    }
+    .btn-card-b{
+        padding: 7.5px 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .kite-s-m{
+        width: 9.82px;
+        height: 12.13px;
+    }
+    .p-sign-card{
+        margin: .1rem 1rem;
+    }
+    .section-down-2{
+        margin-top: 1.5rem;
+    }
+    .eye-o-style{
+        position: relative;
+        top : 40px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .kite-style{
+        position: relative;
+        top : 40px;
+        left: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .section-down-1{
+        margin-top: 2rem;
+    }
+    .header-card-p-p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: .3rem;
+    }
+    .display-testi{
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .testimonial-card{
+        width: 100%;
+        height: 256px;
+    }
+    .card-testi{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer-testi{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .quote-style-m{
+        width: 30px;
+        height: 30px;
+    }
+    .testimonial-card-2{
+        width: 100%;
+        height: 256px;
+    }
+    .text-enter-1{
+        padding: 1rem;
+    }
+    .wait-for-it{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .download-text{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .style-download{
+        padding: 0; 
+        border-radius: 20px;
+        margin : 2rem .1rem;
+        text-align: center;
+    }
+    .img-g{
+        width: 500px;
+        height: 100%;
+        left: -10px;
+        margin-top: 1rem;
+    }
+    .star-rating{
+        margin: 1rem;
+        /* text-align: left; */
+    }
+    .text-in-logo{
+        font-size: 10px;
+        top: 1px;
+    }
+    .star-img{
+        width: 17.03px;
+        height: 16px;
+    }
+    .bank-logo{
+        width: 158px;
+        height: 40px;
+    }
+    .licensed{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .star-down{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .app-logo{
+        width: 16px;
+        height: 16px;
+    }
+    .footer-style{
+        padding: 1.9rem;
+        height: auto;
+        width: 100%;
+    }
+    .logo-text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .header-footer{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-p ul li{
+        font-size: 14px;
+        padding-top: 1rem;
+    }
+    .social-media{
+        margin-top: 2rem;
+        border-bottom: 1px solid #333333;
+        padding-bottom: 2rem;
+    }
+    .line-footer{
+        display: none;
+    }
+    .legal-f{
+        margin-top: 1.5rem;
+    }
+    .footer-logo{
+        width: 20px;
+        height: 20px;
+    }
+    .copy-right{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 2rem;
+    }
+    .bg-header{
+        border-radius: 12px;
+        padding: .3rem;
+    }
+    .download-btn{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px;
+        /* width: 80%; */
+    }
+    .header-company{
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .company-center{
+        font-size: 14px;
+        line-height: 20px;
+        width: 80%;
+        padding-top: .6rem;
+    }
+    .img-pace{
+        margin-top: 2rem;
+    }
+    .logo-company-m{
+        width: 95px;
+        height: 23px;
+    }
+    .partner-text{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .our-partners{
+        margin: 1rem;
+    }
+    .why-we-built{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .built-p{
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: .1rem;
+    }
+    .company-values{
+        background: #F4F4FF;
+        border-radius: 10px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    .company-values-p{
+        font-size: 14px;
+        padding-top: .1rem;
+        line-height: 20px;
+    }
+    .our-values{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .company-logo{
+        width: 70%;
+        margin: auto; 
+        padding-bottom: 2rem;
+    }
+    .header-student{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .header-student-w{
+        width: 100%;
+    }
+    .student-p-w{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .student-p-w p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: .1rem;
+    }
+    .btn-apply-student{
+        text-align: center;
+        padding: 16px 62px;
+    }
+    .center-on-mobile{
+        text-align: center;
+    }
+    .student-group{
+        margin: 2rem 0;
+    }
+    .ambassador-is-a{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .what-text-a{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .ambassador-gathering{
+        margin: 2rem 0;
+    }
+    .pro-header{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        width: 100%;
+    }
+    .pro-text{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .task-style{
+        border-radius: 10px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .task-h{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: .1rem;
+    }
+    
+    .links-down ul li{
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .header-faq{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        width: 100%;
+    }
+    .support-text{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+    .support-bot{
+        margin-bottom: 2rem;
+    }
+    .header-support{
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .form-d{
+        margin-top: 2rem;
+    }
+    .form-field{
+        border-radius: 10px;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    .btn-send-message{
+        padding: 16px 24px;
+        margin-top: 2rem;
+    }
+    .info-mail{
+        font-size: 24px;
+        text-align: center;
+    }
+    .info-title{
+        font-size: 18px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .info-text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .margin-on-top{
+        margin-top: 1rem !important;
+    }
+    .bg-header ul li a{
+        padding: 10px 0;
+        margin: 0;
+    }
+
  }

@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <div class="container company-values"  data-aos="zoom-in" data-aos-duration="2000">
+        <div class="container company-values" >
             <div class="our-values">Our Values</div>
                 <p class="company-values-p">Lorem ipsum dolor sit amet consectetur. Pretium rutrum felis iaculis integer adipiscing elementum massa. Cras urna massa aliquam at orci morbi urna. Ac vitae dolor at scelerisque velit nulla est. Ullamcorper consequat nibh egestas morbi tincidunt adipiscing in. In est condimentum morbi mi in duis.</p>
 
