@@ -25,8 +25,16 @@
             <div class="col-lg-2 col-md-2 col-12 footer-p">
                 <h6 class="header-footer legal-f">Legal</h6>
                 <ul>
-                    <li>Terms of Service</li>
-                    <li>Privacy Policy</li>
+                    <li>
+                        <NuxtLink to="https://nyatwa.notion.site/NYATWA-TERMS-AND-CONDITIONS-d4a8aa3ec6ee4e3dbc0d0f89d910c1df" target="_blank">
+                            Terms of Service
+                        </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="https://nyatwa.notion.site/NYATWA-PRIVACY-POLICY-a9e979bbee6c4a3693b2e0252da08941" target="_blank">
+                            Privacy Policy
+                        </NuxtLink>
+                    </li>
                 </ul>
             </div>
         </div>

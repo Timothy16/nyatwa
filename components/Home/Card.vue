@@ -48,7 +48,7 @@
             <div class="section-down-2 d-sm-block d-md-none">
                 <span class="btn-card-b ">@jaxsonfae</span> 
                 <nuxt-img src="/images/diamond.svg" class="img-fluid kite-s-m" alt="" srcset="" /> 
-                <span class="btn-card-b ">@alexandredulce</span> 
+                <span class="btn-card-b ">@alexand</span> 
                 <nuxt-img src="/images/diamond.svg" class="img-fluid kite-s-m" alt="" srcset="" /> 
                 <span class="btn-card-b ">@tadeubonini</span>
             </div>
