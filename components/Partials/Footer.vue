@@ -9,17 +9,17 @@
             <div class="col-lg-3 col-md-2 col-6 footer-p">
                 <h6 class="header-footer">Quick Links</h6>
                 <ul>
-                    <li>Company</li>
-                    <li>Student Ambassador</li>
-                    <li>Get Support</li>
+                    <li><NuxtLink to="/company">Company</NuxtLink></li>
+                    <li><NuxtLink to="/student-ambassador">Student Ambassador</NuxtLink></li>
+                    <li><NuxtLink to="/get-support">Get Support</NuxtLink></li>
                 </ul>
                
             </div>
             <div class="col-lg-3 col-md-2 col-6 footer-p">
                 <h6 class="header-footer">Resources</h6>
                 <ul>
-                    <li>Blog</li>
-                    <li>FAQs</li>
+                    <!-- <li>Blog</li> -->
+                    <li><NuxtLink to="/faq">FAQs</NuxtLink></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-2 col-12 footer-p">
@@ -31,10 +31,16 @@
             </div>
         </div>
         <div class="social-media">
-            <nuxt-img src="/images/twitter.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <nuxt-img src="/images/instagram.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <nuxt-img src="/images/linkdin.svg" class="img-fluid" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <nuxt-img src="/images/blog.svg" class="img-fluid" alt="" srcset="" />
+            <NuxtLink to="https://twitter.com/nyatwa_app" target="_blank">
+                <nuxt-img src="/images/twitter.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </NuxtLink>
+            <NuxtLink to="https://www.instagram.com/nyatwa_app/" target="_blank">
+                <nuxt-img src="/images/instagram.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </NuxtLink>
+            <NuxtLink to="https://linkedin.com/company/nyatwa" target="_blank">
+                <nuxt-img src="/images/linkdin.svg" class="img-fluid" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </NuxtLink>
+            <!-- <nuxt-img src="/images/blog.svg" class="img-fluid" alt="" srcset="" /> -->
         </div>
         <div class="line-footer">
             <nuxt-img src="/images/line.svg" class="img-fluid" alt="" srcset="" />
@@ -50,6 +56,17 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+li a{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100 !important;
+    font-size: 1em !important;
+}
+a{
+    text-decoration: none;
+}
 </style>

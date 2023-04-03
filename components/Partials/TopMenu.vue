@@ -1,5 +1,5 @@
 <template>
-    <div style="background-color: #fff;" class="fixed-top">
+    <div style="" class="fixed-top">
         <!-- #F4F4FF -->
         <!-- <DownloadModal :is-opened="isOpened" @toggle="(value) => isOpened = value"/> -->
          

@@ -3,7 +3,7 @@
     <!-- style="background-color: #F4F4FF;" -->
         <div class="container move-up mockup-bg">
             <div class="d-flex phone-inside">
-                <nuxt-img src="/images/phone-1.svg" class="img-fluid img-left-1" alt="" srcset="" data-aos="fade-right" data-aos-duration="1000" />
+                <nuxt-img src="/images/phone-1.svg" class="img-fluid img-left-1 animate__animated animate__fadeInTopLeft animate__delay-1s animate__slow" alt="" srcset=""  />
                 <nuxt-img src="/images/phone-2.svg" class="img-fluid img-left-2 animate__animated animate__fadeInDown animate__delay-1s animate__slow" alt="" srcset=""  />
                 <nuxt-img src="/images/phone-3.svg" class="img-fluid img-left-3 animate__animated animate__fadeInTopRight animate__delay-1s animate__slow" alt="" srcset=""  />
             </div>

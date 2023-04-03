@@ -20,7 +20,7 @@ li a{
     /* font-family: 'Satoshi' !important; */
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 18px !important;
+    font-size: 17px !important;
     line-height: 24px !important;
     color: #000000 ;
     margin-left: 2rem;
@@ -334,7 +334,7 @@ a:hover{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 43px;
     color: #FFFFFF;
 }
