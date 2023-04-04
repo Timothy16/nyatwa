@@ -8,12 +8,12 @@
         </div>
         <div class="our-partners d-none d-sm-none d-md-block" >
             <span class="partner-text">Our Partners–</span>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <nuxt-img src="/images/flutterwave_logo.svg" class="img-fluid" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <nuxt-img src="/images/flutterwave.svg" class="img-fluid" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <nuxt-img src="/images/paychange.svg" class="img-fluid" alt="" srcset="" />
         </div>
         <div class="our-partners d-flex d-sm-block d-md-none" >
             <div class="partner-text">Our Partners–</div>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <nuxt-img src="/images/flutterwave_logo.svg" class="img-fluid logo-company-m" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <nuxt-img src="/images/flutterwave.svg" class="img-fluid logo-company-m" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <nuxt-img src="/images/paychange.svg" class="img-fluid logo-company-m" alt="" srcset="" />
         </div>
     </div>

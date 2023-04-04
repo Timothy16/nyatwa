@@ -3,10 +3,10 @@
     <footer class="container footer-style">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12">
-                <nuxt-img src="/images/Logo-footer.svg" class="img-fluid" alt="" srcset="" />
+                <nuxt-img src="/images/Logo-footer.svg" class="img-fluid logo-nav-r" alt="" srcset="" />
                 <p class="logo-text pt-3">Nyatwa helps you send and receive money fast, safe and easy.</p>
             </div>
-            <div class="col-lg-3 col-md-2 col-6 footer-p">
+            <div class="col-lg-3 col-md-2 col-6 footer-p footer-d-m-n">
                 <h6 class="header-footer">Quick Links</h6>
                 <ul>
                     <li><NuxtLink to="/company">Company</NuxtLink></li>
@@ -15,7 +15,7 @@
                 </ul>
                
             </div>
-            <div class="col-lg-3 col-md-2 col-6 footer-p">
+            <div class="col-lg-3 col-md-2 col-6 footer-p footer-d-m-n">
                 <h6 class="header-footer">Resources</h6>
                 <ul>
                     <!-- <li>Blog</li> -->

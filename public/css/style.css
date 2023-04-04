@@ -100,7 +100,7 @@ a:hover{
 /* Mobile Mockup */
 
 .section-company{
-    width: 75%;
+    width: 90%;
     margin: auto;
     position: relative;
     top: -70px;
@@ -695,6 +695,13 @@ textarea{
     }
  }
  @media only screen and (max-width : 578px) {
+    .footer-d-m-n{
+        margin-top: 1rem;
+    }
+    .logo-nav-r{
+        width: 84px;
+        height: 19px
+    }
     .text-in-logo{
         /* font-size: 10px; */
         top: 1px;
@@ -710,7 +717,9 @@ textarea{
         margin-top: 1rem !important;
     }
     .btn-download-hero{
-        padding: 14px 24px;
+        padding: 10px 20px;
+        margin-bottom: 3rem;
+        font-size: 14px;
     }
     .img-m-v{
         height: 33px;
@@ -749,13 +758,12 @@ textarea{
         background-size: cover 100%;
         height: auto;
     }
-  
     .r-m-l{
-        width: 63px;
-        height: 6.5px;
+        width: 100px;
+        height: 10.5px;
     }
     .section-company{
-        width: 70%;
+        width: 100%;
         margin: auto;
         position: relative;
         top: -15px;
@@ -786,7 +794,7 @@ textarea{
         width: 80%;
     }
     .section-down{
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     .btn-card-b{
         padding: 7.5px 12px;
@@ -824,6 +832,7 @@ textarea{
         font-size: 14px;
         line-height: 20px;
         margin-top: .3rem;
+        padding: .4rem;
     }
     .display-testi{
         display: block;
@@ -1129,6 +1138,9 @@ textarea{
 
  }
  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-d-m-n{
+        margin-top: 1rem;
+    }
     .hero-title{
         font-size: 45px;
     }
@@ -1142,6 +1154,7 @@ textarea{
     }
     .btn-download-hero{
         padding: 14px 24px;
+        margin-bottom: 3rem;
     }
     .img-m-v{
         height: 33px;
@@ -1182,8 +1195,8 @@ textarea{
     }
   
     .r-m-l{
-        width: 63px;
-        height: 6.5px;
+        width: 100px;
+        height: 10.5px;
     }
     .section-company{
         width: 70%;
@@ -1217,7 +1230,7 @@ textarea{
         width: 80%;
     }
     .section-down{
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     .btn-card-b{
         padding: 7.5px 12px;
