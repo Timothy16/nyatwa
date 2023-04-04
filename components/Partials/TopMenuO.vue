@@ -4,7 +4,7 @@
             <nav class="navbar navbar-expand-lg bg-header ">
                 <div class="container-fluid">
                     <NuxtLink class="navbar-brand" to="/">
-                        <nuxt-img src="/images/Logo-Main.svg" class="img-fluid" alt="" srcset="" />
+                        <nuxt-img src="/nyatwa/images/Logo-Main.svg" class="img-fluid" alt="" srcset="" />
                     </NuxtLink>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form> -->
-                        <div class="download-btn"><span class="pic-up"><nuxt-img src="/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
+                        <div class="download-btn"><span class="pic-up"><nuxt-img src="/nyatwa/images/DeviceMobileCamera.svg" class="img-fluid" alt="" srcset="" /></span>&nbsp; Download the app</div>
                     </div>
                 </div>
             </nav>

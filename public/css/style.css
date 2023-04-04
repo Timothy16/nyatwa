@@ -113,7 +113,7 @@ a:hover{
     padding-top: 15rem;
 }
 .mockup-bg{
-    background-image: url('/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/nyatwa/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
     border-radius: 50px;
     /* height: auto; */
     /* padding-bottom: 5rem; */
@@ -154,7 +154,7 @@ a:hover{
 }
 
 .section-mockup{
-    background: url("/public/images/Section.png");
+    background: url("/public/nyatwa/images/Section.png");
     height: 736px;
     width: 100%;
 }
@@ -307,7 +307,7 @@ a:hover{
    z-index: 9001;
 }
 .style-download{
-    background-image: url('/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/nyatwa/images/Vector.svg'), linear-gradient(to right, #6246EA, #6246EA);
     border-radius: 50px;
     /* height: auto; */
     margin-top : 6rem;

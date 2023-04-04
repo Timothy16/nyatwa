@@ -6,7 +6,7 @@
         <label class="tab-label" for="chck1">
             <div class="d-flex justify-content-between">
                 <div>Is Nyatwa a bank?</div>
-                <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
             </div>
         </label>
         <div class="tab-content">
@@ -19,7 +19,7 @@
         <label class="tab-label" for="chck2">
             <div class="d-flex justify-content-between">
                 <div>Is my money secure with Nyatwa?</div>
-                <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
             </div>
         </label>
         <div class="tab-content">
@@ -32,7 +32,7 @@
             <label class="tab-label" for="chck3">
                 <div class="d-flex justify-content-between">
                     <div>How much does Nyatwa charge per transaction?</div>
-                    <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                    <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
                 </div>
             </label>
             <div class="tab-content">
@@ -45,7 +45,7 @@
             <label class="tab-label" for="chck4">
                 <div class="d-flex justify-content-between">
                     <div>What is the maximum amount my account can hold?</div>
-                    <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                    <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
                 </div>
             </label>
             <div class="tab-content">
@@ -58,7 +58,7 @@
             <label class="tab-label" for="chck5">
                 <div class="d-flex justify-content-between">
                     <div>What is card creation fee?</div>
-                    <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                    <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
                 </div>
             </label>
             <div class="tab-content">
@@ -71,7 +71,7 @@
             <label class="tab-label" for="chck6">
                 <div class="d-flex justify-content-between">
                     <div>What is the maximum amount I can spend using my card in a month?</div>
-                    <nuxt-img src="/images/circle.svg" class="style-img" alt="" srcset="" />
+                    <nuxt-img src="/nyatwa/images/circle.svg" class="style-img" alt="" srcset="" />
                 </div>
             </label>
             <div class="tab-content">

@@ -9,21 +9,21 @@
             <div class="modal-body modal-p-n">
                 <div class="background-bg ">
                     <div class="d-flex justify-content-end p-2" style="cursor: pointer;" data-bs-dismiss="modal" aria-label="Close">
-                        <nuxt-img src="/images/close-circle.svg" class="img-fluid" alt="" srcset="" />
+                        <nuxt-img src="/nyatwa/images/close-circle.svg" class="img-fluid" alt="" srcset="" />
                     </div>
                 </div>
                 <div class="text-center">
                     <div class="img-up">
-                        <nuxt-img src="/images/scan.svg" class="img-fluid" alt="" srcset="" />
+                        <nuxt-img src="/nyatwa/images/scan.svg" class="img-fluid" alt="" srcset="" />
                         <div class="text-scan mb-3">Scan the QR Code to download Pera Wallet</div>
                         <p>Start moving money freely</p>
                         <div class="app-down d-flex justify-content-center">
-                            <nuxt-img src="/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;
-                            <nuxt-img src="/images/app-store.svg" class="img-fluid" alt="" srcset="" />
+                            <nuxt-img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;
+                            <nuxt-img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
                         </div>
                         <!-- <div class="app-down d-flex">
-                            <nuxt-img src="/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;
-                            <nuxt-img src="/images/app-store.svg" class="img-fluid" alt="" srcset="" />
+                            <nuxt-img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;
+                            <nuxt-img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
                         </div> -->
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .background-bg{
-    background-image: url('/images/download-bg-c.svg'), linear-gradient(to right, #6246EA, #6246EA);
+    background-image: url('/nyatwa/images/download-bg-c.svg'), linear-gradient(to right, #6246EA, #6246EA);
     height: 192px;
     background-size: cover;
     background-repeat: no-repeat;
