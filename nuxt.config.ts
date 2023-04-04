@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         pageTransition: { name: 'page', mode: 'out-in' }
     },
     css: [
-        '@/public/css/style.css',
+        '@/public/nyatwa/css/style.css',
     ],
     modules: [
         '@nuxt/image-edge',
