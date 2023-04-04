@@ -5,7 +5,7 @@
             <p class="what-text-a mt-4">The Nyatwa Student Ambassador Program is an exclusive community of young, smart, and influential students in some of the leading universities across the nation.</p>
         
             <div class="ambassador-gathering">
-                <nuxt-img src="/nyatwa/images/guy-girl.svg" class="img-fluid" alt="" srcset="" />
+                <img src="/nyatwa/images/guy-girl.svg" class="img-fluid" alt="" srcset="" />
             </div>
 
             <div class="section-professional" data-aos="zoom-n" data-aos-duration="1000">

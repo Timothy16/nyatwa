@@ -13,20 +13,20 @@
             <div class="student-group d-none d-sm-none d-md-block">
                 <div class="row">
                     <div class="col-8">
-                        <nuxt-img src="/nyatwa/images/group-student.svg" class="img-h w-100" alt="" srcset="" />
+                        <img src="/nyatwa/images/group-student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                     <div class="col-lg-4 col-4">
-                        <nuxt-img src="/nyatwa/images/student.svg" class="img-h w-100" alt="" srcset="" />
+                        <img src="/nyatwa/images/student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                 </div>
             </div>
             <div class="student-group d-sm-block d-md-none">
                 <div class="row g-1">
                     <div class="col-lg-8 col-8">
-                        <nuxt-img src="/nyatwa/images/group-student.svg" class="img-h w-100" alt="" srcset="" />
+                        <img src="/nyatwa/images/group-student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                     <div class="col-lg-4 col-4">
-                        <nuxt-img src="/nyatwa/images/student.svg" class="img-h w-100" alt="" srcset="" />
+                        <img src="/nyatwa/images/student.svg" class="img-h w-100" alt="" srcset="" />
                     </div>
                 </div>
             </div>

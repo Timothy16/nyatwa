@@ -9,21 +9,21 @@
             <div class="modal-body modal-p-n">
                 <div class="background-bg ">
                     <div class="d-flex justify-content-end p-2" style="cursor: pointer;" data-bs-dismiss="modal" aria-label="Close">
-                        <nuxt-img src="/nyatwa/images/close-circle.svg" class="img-fluid" alt="" srcset="" />
+                        <img src="/nyatwa/images/close-circle.svg" class="img-fluid" alt="" srcset="" />
                     </div>
                 </div>
                 <div class="text-center">
                     <div class="img-up">
-                        <nuxt-img src="/nyatwa/images/scan.svg" class="img-fluid" alt="" srcset="" />
+                        <img src="/nyatwa/images/scan.svg" class="img-fluid" alt="" srcset="" />
                         <div class="text-scan mb-3">Scan the QR Code to download Pera Wallet</div>
                         <p>Start moving money freely</p>
                         <div class="app-down d-flex justify-content-center">
-                            <nuxt-img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;
-                            <nuxt-img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
+                            <img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;&nbsp;
+                            <img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
                         </div>
                         <!-- <div class="app-down d-flex">
-                            <nuxt-img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;
-                            <nuxt-img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
+                            <img src="/nyatwa/images/play-store.svg" class="img-fluid" alt="" srcset="" /> &nbsp;
+                            <img src="/nyatwa/images/app-store.svg" class="img-fluid" alt="" srcset="" />
                         </div> -->
                     </div>
                 </div>

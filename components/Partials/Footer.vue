@@ -3,7 +3,7 @@
     <footer class="container footer-style">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12">
-                <nuxt-img src="/nyatwa/images/Logo-footer.svg" class="img-fluid logo-nav-r" alt="" srcset="" />
+                <img src="/nyatwa/images/Logo-footer.svg" class="img-fluid logo-nav-r" alt="" srcset="" />
                 <p class="logo-text pt-3">Nyatwa helps you send and receive money fast, safe and easy.</p>
             </div>
             <div class="col-lg-3 col-md-2 col-6 footer-p footer-d-m-n">
@@ -40,18 +40,18 @@
         </div>
         <div class="social-media">
             <NuxtLink to="https://twitter.com/nyatwa_app" target="_blank">
-                <nuxt-img src="/nyatwa/images/twitter.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="/nyatwa/images/twitter.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
             <NuxtLink to="https://www.instagram.com/nyatwa_app/" target="_blank">
-                <nuxt-img src="/nyatwa/images/instagram.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="/nyatwa/images/instagram.svg" class="img-fluid footer-logo" alt="" srcset="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
             <NuxtLink to="https://linkedin.com/company/nyatwa" target="_blank">
-                <nuxt-img src="/nyatwa/images/linkdin.svg" class="img-fluid footer-logo" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="/nyatwa/images/linkdin.svg" class="img-fluid footer-logo" alt="" srcset="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </NuxtLink>
-            <!-- <nuxt-img src="/nyatwa/images/blog.svg" class="img-fluid" alt="" srcset="" /> -->
+            <!-- <img src="/nyatwa/images/blog.svg" class="img-fluid" alt="" srcset="" /> -->
         </div>
         <div class="line-footer">
-            <nuxt-img src="/nyatwa/images/line.svg" class="img-fluid" alt="" srcset="" />
+            <img src="/nyatwa/images/line.svg" class="img-fluid" alt="" srcset="" />
         </div>
         <div class="copy-right">Copyright © {{ new Date().getFullYear() }} Paychangu Limited</div>
     </footer>
