@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="/nyatwa/images/phone-download.svg" class="img-g" alt="" srcset="" />
+                    <img src="/nyatwa/images/phone-download.svg" class="img-g h" alt="" srcset="" />
                 </div>
             </div>
         </div>
